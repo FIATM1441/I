@@ -4,6 +4,9 @@
 	<title>Intro to JavaScript</title>
 </head>
 <body>
-	<h1>Das ist eine Überschrift für JavaScript</h1>
+	<h1 id="ÜberschriftI">Das ist eine Überschrift für JavaScript</h1>
+	<button onclick="document.getElementById('ÜberschriftI').innerHTML='du Lusche'">
+		Nicht drücken!!
+	</button>
 </body>
-</html>
+</html
